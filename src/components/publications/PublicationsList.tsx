@@ -8,7 +8,7 @@ import {
     FunnelIcon,
     CalendarIcon,
     BookOpenIcon,
-    ClipboardDocumentIcon,
+    // ClipboardDocumentIcon,
     DocumentTextIcon
 } from '@heroicons/react/24/outline';
 import { Publication } from '@/types/publication';
@@ -29,7 +29,7 @@ export default function PublicationsList({ config, publications, embedded = fals
     const [selectedYear, setSelectedYear] = useState<number | 'all'>('all');
     const [selectedType, setSelectedType] = useState<string | 'all'>('all');
     const [showFilters, setShowFilters] = useState(false);
-    const [expandedBibtexId, setExpandedBibtexId] = useState<string | null>(null);
+    // const [expandedBibtexId, setExpandedBibtexId] = useState<string | null>(null);
     const [expandedAbstractId, setExpandedAbstractId] = useState<string | null>(null);
 
     // Extract unique years and types for filters
@@ -275,7 +275,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                 {messages.publications.abstract}
                                             </button>
                                         )}
-                                        {pub.bibtex && (
+                                        {/* {pub.bibtex && (
                                             <button
                                                 onClick={() => setExpandedBibtexId(expandedBibtexId === pub.id ? null : pub.id)}
                                                 className={cn(
@@ -288,7 +288,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                 <BookOpenIcon className="h-3 w-3 mr-1.5" />
                                                 {messages.publications.bibtex}
                                             </button>
-                                        )}
+                                        )} */}
                                     </div>
 
                                     <AnimatePresence>
@@ -307,7 +307,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                 </div>
                                             </motion.div>
                                         ) : null}
-                                        {expandedBibtexId === pub.id && pub.bibtex ? (
+                                        {/* {expandedBibtexId === pub.id && pub.bibtex ? (
                                             <motion.div
                                                 key="bibtex"
                                                 initial={{ opacity: 0, height: 0 }}
@@ -331,7 +331,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                     </button>
                                                 </div>
                                             </motion.div>
-                                        ) : null}
+                                        ) : null} */}
                                     </AnimatePresence>
                                 </div>
                             </div>

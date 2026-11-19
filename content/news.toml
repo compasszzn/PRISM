@@ -1,7 +1,11 @@
 [[news]]
-date = "2025-11"
-content = "Our work has been accepted by a prestigious journal 🎉"
+date = "2026-5"
+content = "One first-author work is accepted by a ICML 2026"
 
 [[news]]
-date = "2025-09"
-content = "Starting my PhD at the University of Example"
+date = "2025-11"
+content = "Our second-author work is accepted by a KDD 2026 "
+
+[[news]]
+date = "2025-9"
+content = "One first-author work is accepted by a NeurIPS 2025"
