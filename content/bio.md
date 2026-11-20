@@ -1,3 +1,3 @@
-I'm a 1-year PhD student in DSA, Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Jia Li](https://sites.google.com/view/lijia). Before that, I receive my MPhil degree in DSA at Hong Kong University of Science and Technology (Guangzhou), and received my B.E. degree in Beijing University of Posts and Telecommunications.
+I'm a 2-year PhD student in DSA, Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Jia Li](https://sites.google.com/view/lijia). Before that, I receive my MPhil degree in DSA at Hong Kong University of Science and Technology (Guangzhou), and received my B.E. degree in Beijing University of Posts and Telecommunications.
 
 My research interest includes Multimodal Large Language Model and Graph Learning.
